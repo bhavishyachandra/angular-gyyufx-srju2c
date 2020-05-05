@@ -2,6 +2,7 @@ export class CartService {
   items = [];
 
   addToCart(product) {
+    window.alert('Your product has been added to the cart!');
     this.items.push(product);
   }
 
